@@ -7,7 +7,6 @@ public class CameraSwitcher : MonoBehaviour
     public PlayableDirector timeline;
     public Cinemachine.CinemachineVirtualCamera[] virtualCameras;
     private int currentCameraIndex = 0;
-    private bool isTimelinePlaying = true;
 
     private void Start()
     {
@@ -33,9 +32,6 @@ public class CameraSwitcher : MonoBehaviour
 
     private void SwitchToPreviousCamera()
     {
-        // Pause the timeline
-        PauseTimeline();
-
         // Deactivate the current camera
         virtualCameras[currentCameraIndex].gameObject.SetActive(false);
 
@@ -50,17 +46,10 @@ public class CameraSwitcher : MonoBehaviour
 
         // Activate the new camera
         virtualCameras[currentCameraIndex].gameObject.SetActive(true);
-
-        // Jump to the corresponding timeline time
-        timeline.time = (double)currentCameraIndex / virtualCameras.Length * timeline.duration;
-        timeline.Evaluate();
     }
 
     private void SwitchToNextCamera()
     {
-        // Pause the timeline
-        PauseTimeline();
-
         // Deactivate the current camera
         virtualCameras[currentCameraIndex].gameObject.SetActive(false);
 
@@ -75,18 +64,5 @@ public class CameraSwitcher : MonoBehaviour
 
         // Activate the new camera
         virtualCameras[currentCameraIndex].gameObject.SetActive(true);
-
-        // Jump to the corresponding timeline time
-        timeline.time = (double)currentCameraIndex / virtualCameras.Length * timeline.duration;
-        timeline.Evaluate();
-    }
-
-    private void PauseTimeline()
-    {
-        if (isTimelinePlaying)
-        {
-            timeline.Pause();
-            isTimelinePlaying = false;
-        }
     }
 }
