@@ -1242,7 +1242,7 @@ PrefabInstance:
     - target: {fileID: 8806168916962399722, guid: 9cda651feb789054cbb43c0313b0727a,
         type: 3}
       propertyPath: m_Name
-      value: BillBoard 8
+      value: BillBoard 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cda651feb789054cbb43c0313b0727a, type: 3}
@@ -1819,7 +1819,7 @@ PrefabInstance:
     - target: {fileID: 8806168916962399722, guid: 9cda651feb789054cbb43c0313b0727a,
         type: 3}
       propertyPath: m_Name
-      value: BillBoard 11
+      value: BillBoard 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cda651feb789054cbb43c0313b0727a, type: 3}
@@ -2428,7 +2428,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 12
+  m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -3196,7 +3196,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 12
+  m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -5924,7 +5924,7 @@ PrefabInstance:
     - target: {fileID: 8806168916962399722, guid: 9cda651feb789054cbb43c0313b0727a,
         type: 3}
       propertyPath: m_Name
-      value: BillBoard 7
+      value: BillBoard 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cda651feb789054cbb43c0313b0727a, type: 3}
@@ -6027,7 +6027,7 @@ PrefabInstance:
     - target: {fileID: 8806168916962399722, guid: 9cda651feb789054cbb43c0313b0727a,
         type: 3}
       propertyPath: m_Name
-      value: BillBoard 9
+      value: BillBoard 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cda651feb789054cbb43c0313b0727a, type: 3}
@@ -7157,7 +7157,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 12
+  m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -7728,7 +7728,7 @@ PrefabInstance:
     - target: {fileID: 8806168916962399722, guid: 9cda651feb789054cbb43c0313b0727a,
         type: 3}
       propertyPath: m_Name
-      value: BillBoard 4
+      value: BillBoard 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cda651feb789054cbb43c0313b0727a, type: 3}
@@ -8500,7 +8500,7 @@ PrefabInstance:
     - target: {fileID: 8806168916962399722, guid: 9cda651feb789054cbb43c0313b0727a,
         type: 3}
       propertyPath: m_Name
-      value: BillBoard 6
+      value: BillBoard 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cda651feb789054cbb43c0313b0727a, type: 3}
@@ -9621,7 +9621,7 @@ PrefabInstance:
     - target: {fileID: 8806168916962399722, guid: 9cda651feb789054cbb43c0313b0727a,
         type: 3}
       propertyPath: m_Name
-      value: BillBoard 10
+      value: BillBoard 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cda651feb789054cbb43c0313b0727a, type: 3}
@@ -10481,7 +10481,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 12
+  m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -28709,7 +28709,7 @@ PrefabInstance:
     - target: {fileID: 8806168916962399722, guid: 9cda651feb789054cbb43c0313b0727a,
         type: 3}
       propertyPath: m_Name
-      value: BillBoard 5
+      value: BillBoard 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cda651feb789054cbb43c0313b0727a, type: 3}
@@ -29199,8 +29199,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751573471}
-  m_LocalRotation: {x: -0, y: -0.676304, z: -0, w: 0.7366227}
-  m_LocalPosition: {x: -44.679993, y: 20.18, z: 93.48001}
+  m_LocalRotation: {x: 0.015150399, y: -0.9037877, z: 0.05009503, w: 0.42476922}
+  m_LocalPosition: {x: 66.57001, y: 22.1, z: 66.07001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29272,8 +29272,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 1000
-  field of view: 50
+  far clip plane: 500
+  field of view: 31
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -30966,7 +30966,7 @@ GameObject:
   - component: {fileID: 1928907083}
   - component: {fileID: 1928907082}
   m_Layer: 0
-  m_Name: Fake Support for the BillBoard 11
+  m_Name: Fake Support for the BillBoard 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31766,7 +31766,7 @@ PrefabInstance:
     - target: {fileID: 8806168916962399722, guid: 9cda651feb789054cbb43c0313b0727a,
         type: 3}
       propertyPath: m_Name
-      value: BillBoard 3
+      value: BillBoard 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cda651feb789054cbb43c0313b0727a, type: 3}
